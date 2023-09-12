@@ -1,0 +1,1 @@
+Root é a raiz do site como se fosse um documento, um local para armazenar as variaveis globais.

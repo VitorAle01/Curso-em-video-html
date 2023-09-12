@@ -1,0 +1,66 @@
+Tipografia.
+Alturas base das letras minusculas é a base da letra X.
+
+
+Altura das maisculas.
+altura corpo
+ascendente
+descendente
+
+serifa é para ter uma noção de uma linha imaginaria.
+
+Monoespaçado tem a mesma largura cada letra.
+
+handwriting= fonte similar a escrita a mão.
+
+display= fonte comemorativa, não segue nenhuma regra da anatomia.
+
+
+Medidas absoluta: 
+cm, mm in= polegadas, px, pt e pc (pt e pc não utilizar em tela).
+
+medidas relativas:
+
+EM= altura relativa a letra maiscula
+
+EX= altura relativa a letra x minuscula
+
+REM= fonte relacionada no body.
+
+VW= Largura da viewport (tamanho da sua tela = largura)
+
+VH= Altura da viewport (tamanho da sua tela = altura)
+
+%=
+
+16px tamanho padrão do navegador.
+
+16px geralmente é =1em
+
+recomendado PX ou EM.
+
+o melhor é o EM.
+
+Peso da fonte-(font-weight) font-weight: lighter, normal, bold ou bolder ou pode usar o peso da fonte pela forma numérica do 100 ao 900.
+
+
+
+width( largura)
+
+height( altura)
+
+
+font-weight: bolder; negrito
+font-style: italic; italico
+text-decoration: underline; sublinhado 
+
+ font-family: 'work sans', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            - font-style -> font-weight-> font-size-> font-family */
+            font: italic bold 3em 'Work Sans', sans-serif;
+
+            /*  As duas opções que podem ser feitas  /* shorthand font */
+        }

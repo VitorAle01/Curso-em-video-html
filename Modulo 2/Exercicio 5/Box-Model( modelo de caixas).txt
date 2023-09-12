@@ -1,0 +1,36 @@
+Box-Model( modelo de caixas)
+
+uma coisa que cabe uma coisa dentro da outra(aninhamento)
+
+Anatomia de uma caixa.
+
+height (HT)- ALTURA
+width (TH)- LARGURA
+BORDER- (BORDAS)
+PADDING(PREENCHIMENTO) afasta a borda do conteudo.
+MARGIN( MARGEM) espaço externo 
+OUTLINE(CONTORNO OU TRAÇADO)
+
+Todo paragrafo é uma caixa.
+Tipos de caixa 
+
+Box-level
+TAG: <DIV>, <H1>-<H6>, <P>, <MAIN>, <HEADER>, <ARTICLE>, <ASIDE>, <FOOTER>, <FORM>, <VIDEO>.
+
+Box level ela pula uma linha e desenha o box level, sempre se inicia em uma linha nova e ocupa a tela inteira é sempre 100% do viewport e pula para a proxima linha quando acabar.
+
+
+
+Inline-level
+Não ocupa o espaço inteiro e tambem não pula a linha.
+TAG: <SPAN>, <A>, <CODE>, <SMALL>, <STRONG>, <EM>, <SUP>-<SUB>, <LABEL>, <BUTTON>, <INPUT>, <SELECT>.
+
+
+Esta descrição se encaixa melhor no conceito do elemento HTML5 <aside>. O elemento <aside> é usado para delimitar um conteúdo periférico e complementar ao conteúdo principal de um artigo ou seção
+
+
+
+
+
+
+

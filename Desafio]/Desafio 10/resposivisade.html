@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            /* tamanho min e max da tela para funcionar a resposividade e não ter quebra das div's, margin:auto centraliza o conteudo mudando o tamanho da tela.*/
+
+        }
+        img{
+            width: 100%;
+            /*img segue 100% o tamanho que a tela pode está, exemplo 300px para 500px a imagem diminui e aumenta com acordo da tela*/
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Responsividade</h1>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aliquam culpa a, minus blanditiis tenetur repellat, quasi incidunt unde debitis id, minima quo reiciendis voluptas illum iste corporis commodi veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum obcaecati maxime nam molestiae minima tenetur labore provident quia. Inventore, ut placeat omnis dicta quibusdam cumque culpa amet a consectetur. Unde!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis mollitia voluptas voluptatem eveniet! Numquam quo voluptatibus expedita quod atque error nemo odio, eligendi, in optio impedit pariatur! Ut, explicabo?
+           </p>
+           <picture>
+            <source media="(max-width:550px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok">
+        </picture>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit itaque, dignissimos voluptatum labore ratione cum, recusandae dolorem iste nesciunt possimus, corrupti explicabo. Ipsa voluptatum ab minus, unde eum reprehenderit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem quas, hic ut culpa voluptates itaque aliquid est perspiciatis consectetur aspernatur, veritatis deserunt numquam ex molestias blanditiis ea! Animi, delectus?
+           </p>
+    </main>
+  
+   
+</body>
+</html>

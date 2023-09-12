@@ -1,0 +1,21 @@
+a cada fonte que quiser utilizar tem que importar, @import tem que colocar sempre abaixo do style quando for CSS.
+
+<title>Fontes Externas</title>
+    <style>
+        @font-face{
+            font-family:'Love' ;
+            src: url('love larry.otf') format('opentype'), url('love larry. ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+
+            /* 
+            Tipos de format()
+            - opentype(otf)
+            -truetype(ttf)
+            - embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+            site: dafont.com
+            */
+        }

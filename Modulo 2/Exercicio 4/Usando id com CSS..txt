@@ -1,0 +1,18 @@
+Usando id com CSS.
+
+@charset "UTF-8" para todas as caracteres e acentuações no CSS E HTML
+
+em HTML é id em CSS é #
+#= ID 
+
+em HTML é class em CSS é . (PONTO)
+
+só pode ter apenas um elemento id.
+
+class podem ter varios elementos.
+
+class é ligado antes e o id depois é uma questão de hierarquia, mas tudo que o elemento acima tiver o debaixo vai herdar
+
+ctrl+ shift+ P é o envelopamento de tag.
+
+Podemos definir seletores com o símbolo de maior que (>) para indicar o que chamamos de direct children. O seletor de maior que (>) em CSS é usado para selecionar o elemento com um pai específico. É chamado de elemento > seletor de elemento

@@ -1,0 +1,14 @@
+Git e GitHub
+
+Git-
+Gerenciador automático de versões.
+Repositório local (a caixinha)
+
+GitHub- hospedagens de site e codigos.
+Repositório remoto.
+pode eleborar trabalho em equipe.
+(push)
+
+eles dependem um do outro, mas não é extramemente necessario.
+
+

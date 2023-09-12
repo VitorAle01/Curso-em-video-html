@@ -1,0 +1,34 @@
+Margin e Padding
+User agent é sempre as configurações do navegador.
+
+display: block é box-level
+
+ordem correta de escrever o padding é sentido horario da direita pra esquerda.
+
+padding-top
+padding-right
+paddin-bottom
+paddin-left
+
+Utilizar a ferramenta do dev tools que ajuda a linhar os elementos de uma forma mais facil.
+
+margin fica da borda pra fora
+padding fica da borda pra dentro
+
+para centralizar a caixa no meio tem que utilizar o modo a margin: auto;
+mesmo com alteração do tamanho do navegador ele ficara centralizado ainda.
+todo elemento que for uma caixa e queira centralizar utilizar o modo auto.
+
+outline é um tracejado dentro da margin.
+
+	    padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+=
+            padding: 10px 10px 10px 10px;
+
+padding: 10px(top e bottom) 20px (right e left);
+
+tem a opção de inline-block
+não vai quebrar linha, mas vai ter como por altura e largura.

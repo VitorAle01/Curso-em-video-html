@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+            /*
+            simbologias vistas
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = clildren (filho da tag)*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    a:visited{
+        color: yellow;
+        /*Links visitados vai ficar de outra cor, como mencionada a cima "vitited: yellow"*/
+    }
+    a:hover{
+        text-decoration: underline;
+        color: blue;
+        /*sublinhar o link quando passar o seta do mouse em cima "text-decoration: underline;"*/
+    }
+    a:active{
+      color: black;  
+      /* quando o link for clicado ele ficara da cor selecionada a cima*/
+    }
+        a::before{
+            content: "[sem acesso]";
+            /*Antes*/
+        }
+    a::after{
+        content: "[Acessado]";
+        text-decoration: none;
+        font-weight: normal;
+        color: aliceblue;
+        /*depois*/
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io"target="blank">Repositório do GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/"target="blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com"target="blank">Site do Curso em video.</a></li>
+    </ul>
+</body>
+</html>

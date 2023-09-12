@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Mídias em HTML5</h1>
+    <P>Tente abrir esse site em  varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</P>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="./Imagens/imagem-g.png" alt="Imagem flexível" >
+        <!--
+            Imagens flexivel, é tipo efeito de responsividade se adapta com o tamanho que estiver o navegador.
+            Tem que manter a sequencia a cima para funcionar.
+        -->
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em html</p>
+    <audio src="./midias/musica-dyalla.mp3" controls autoplay></audio>
+    <!--
+        Botão de autoplay/ forma ilimitada.
+    -->
+    <audio preload="metadata" autoplay controls loop> <!--loop serve para ficar repetindo as musicas, indicado para musicas pequenas.
+    não é indicado usar wav pq é uma mídia pesada-->
+        <source src="midia/musica-dyalla.mp3" type="audio/mpeg">
+        <source src="midia/musica-dyalla.ogg" type="audio/ogg">
+        <source src="midia/musica-dyalla.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="./midias/musica-dyalla.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+        <!--
+            audio preload= tem 3 opções( autoplay) o site so carrega por completo depois que todas as midias foram carregadas (metadata) só algumas informações e quando o usuário clicar
+            (none) não carrega nada
+        -->
+    </audio>
+    
+</body>
+</html>

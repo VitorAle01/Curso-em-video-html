@@ -1,0 +1,11 @@
+Para um planejamento de um site:
+
+1- layout
+Utilizar o mockflow 
+senha:V1t0r@12345
+
+2-Paleta de cores
+
+3- fontes que vai ser utilizadas.
+
+Antes de começar a construir um site, uma das técnicas é desenhar a sua estrutura em forma de grades, mais conhecida como wireframe

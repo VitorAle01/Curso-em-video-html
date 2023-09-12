@@ -1,0 +1,10 @@
+BOX SHADOW pode ser criado pelo dev tools, basta clica nos 3 pontinhos inferior a direita, sombra interna e externa. outset e inset.
+
+sombra apenas da cor preto, bem clarinho.
+
+div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;

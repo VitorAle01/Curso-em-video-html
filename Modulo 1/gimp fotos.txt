@@ -1,0 +1,3 @@
+Jpeg é mais autocompacto, o png pode utilizar a imagem com o fundo transparente e a qualidade melhor.
+
+gimp app para baixar foto e fazer edições.

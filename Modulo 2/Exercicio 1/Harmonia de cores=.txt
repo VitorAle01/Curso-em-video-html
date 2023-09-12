@@ -1,0 +1,23 @@
+Harmonia de cores=
+
+primaria= amarelo,azul e vermelho
+secundaria= violeta, verde e laranja 
+terciarias é a mistura da primaria com a secundaria= amarelo alaranjado.
+
+cores análogas= cores com tons parecidos
+cores complementares= cores opostas.
+
+pode-se utilizar cores análogas e uma complementares, ai vira uma paleta de cores com 4 cores.
+
+cores triádicas= pular três cores que está proxima da cor selecionada.
+
+cores em quadrado= pular duas cores que está proxima da cor selecionada.
+
+cores tetrádicas= pega dois pares de cores opostas.
+
+monocromia= pega apenas uma cor só e modifica a saturação e a monotomia.
+exemplo hsl no vsc.
+
+Ferramentas de cores= Adobe color, palleton e coolors. 
+
+Extensões do google: colorzilla pega os codigos das cores.

@@ -1,0 +1,27 @@
+capitulo 14 aula 08: fonts ninjas extensão do google.
+identifica as fontes do html.
+
+aula 09: site de identicador de fontes em imagens: whatfont, myfonts, fontsquirrel
+
+
+ <title>Alinhamentos</title>
+    <style>
+        body{
+            font: normal 16px Arial, Verdana,  Serif;
+            text-align: left;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: right;
+
+        }
+        p{
+            text-align: justify;
+            /* alinhado na direita e na esquerda não importa o tamanho do site e do texto.*/
+ text-indent: 20px; /* separação no comeco do paragrafo, modo igual redação*/
+        }
+
