@@ -1,0 +1,5 @@
+Gerenciamento github
+Para atualizar meu repositorio local no github basta dar um commit, e o remoto da um push origin.
+
+Para apagar algum repositorio remoto basta ir ao setting-> danger e na ultima linha delete.
+ o local deixar no cadeado de um arquivo selecionado-> repository-> delete.

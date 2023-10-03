@@ -1,0 +1,3 @@
+Clonagem dos repositorios no github.
+
+Perfil de algum usario> repositorios publico>Code>Open with github desktop>abrir github desktop e selecionar a pasta que você queira selecionar o arquivo.

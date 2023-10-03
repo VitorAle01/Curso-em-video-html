@@ -1,0 +1,13 @@
+Conectar e desconectar do github
+
+Abrir Github>file>options>Accounts>sign in: login e senha.
+
+Em caso de dar erro com o git vai em options>git>clica nos usernames e save.
+
+Para eliminar o repositorio do computador vai em remove>marca a caixabox com isso vai eliminar até da lixeira.
+
+etapa 1: final de sair totalmente do github>file>option>sign out.
+
+etapa 2: file>option>git> limpar os emails> save.
+
+etapa 3: esvaziar a lixeira.
