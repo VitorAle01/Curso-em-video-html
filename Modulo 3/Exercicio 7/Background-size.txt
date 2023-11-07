@@ -1,0 +1,5 @@
+Background-size: tag coutain deixa a imagem 100% exibida.
+
+background-size: c0ver ele cobre a tela toda, mas deixa um pouco picotada, não ocupa 100% da imagem, mas ocupa 100% da vh.
+
+Background-size:auto é apenas a imagem

@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh; /* altura maxima do site*/
+            height: 100vh; 
             background-color: black;
             background-image: url('Imagens/wallpaper002.jpg');
             background-position: center top; /*posição*/
             background-repeat: no-repeat; /* não repitir*/
-            background-size: auto;
+            background-size: cover;
+            background-attachment: fixed; /* fixed- a tela rola fixada no conteudo, scroll vai rolando descendo o conteudo*/
+
+            /* shorthand - background
+             color> image> position> repeat> [Size- "especificação do w3c diz que tem como por size em shorthand, mas em nenhum browser funciona"] > attachment
+              background: black url('Imagens/wallpaper002.jpg') center top no-repeat cover fixed;
+            */
+           
         }
         main{ /* tag semantica do site*/
             background-color: white; 
-            width: 400px;
+         max-width: 600px; /* modo que ajuda ficar meio responsivo, e não quebra se o site for utilizado por um smartphone*/
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
