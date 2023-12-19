@@ -1,0 +1,3 @@
+Alinhamento vertical
+
+Margin: auto; /* serve apenas para alinhamento horizontal.
