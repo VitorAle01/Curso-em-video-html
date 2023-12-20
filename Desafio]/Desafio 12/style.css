@@ -1,5 +1,69 @@
 @charset "  UTF-8";
 
-body{
-    background-color: aqua;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px; /* 50px para cima*/
+    /*text-transform: uppercase; Deixa tudo em letra maiscula*/
+    font-variant: small-caps; /* apenas as letras iniciais em maisculo*/
+}
+
+header> p{
+    padding-bottom: 50px; /* 50px para baixo*/
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none; /* sem sublinhado*/
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline; /* passando o mouse em cima, aparece o sublinhado no nome*/
+}
+
+section{ /* section normal vale para ambas sections (normal e imagem), os padding's criados foi para ganhar espaço e ter o efeito paralaxe*/ 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /* espaçamento duplo 2em igual 32px*/
+    padding-left: 30px;
+
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
 }
