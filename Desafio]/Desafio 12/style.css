@@ -61,6 +61,11 @@ section{ /* section normal vale para ambas sections (normal e imagem), os paddin
 
 }
 
+    section > p{
+        padding-bottom: 2em;
+    
+    }
+
 section.normal{
     background-color: white;
     color: black;
@@ -69,14 +74,30 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.401); /* inset= pra dentro a sombra*/
+    background-size: cover;
+    background-attachment: fixed; /* imagem fixada na vh quando utilizar a rolagem do mouse*/
 
 }
 
 section.imagem > p{
     display: inline-block; /* uma caixa que se adapta ao tamanho do conteudo*/
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.504);
+    text-shadow: 1px 1px 0px black;
 }
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+  
 
 footer{
     background-color:black;
