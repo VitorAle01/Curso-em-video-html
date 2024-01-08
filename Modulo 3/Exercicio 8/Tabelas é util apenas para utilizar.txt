@@ -1,0 +1,1 @@
+Tabelas é util apenas para utilizar em dados do site, mas não serve para ser layout.
