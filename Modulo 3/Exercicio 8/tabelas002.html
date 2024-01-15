@@ -11,12 +11,20 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         
 
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color:lightgray;
+
         }
         td.num{
             text-align: right;
@@ -26,6 +34,15 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th{
+            position: sticky; /* sticky= colavel*/
+            top: -1px;
+            background-color:grey;
+        }
+
+        tbody > tr:nth-child(2n){ /*efeito zebrado a cada duas linhas, dois tipos 2n, 2n-1 ou odd-impar ou even-par */
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -33,7 +50,7 @@
     <!--
         Anatomia para tabelas grandes
             TABLE
-
+                CAPTION=legenda da tabela
              T HEAD
                 TR, TD, TH
 
@@ -44,10 +61,11 @@
                         TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <THead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th> <!-- Scope=Col serve para marcar os dados que está ao lado da coluna-->
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </THead>
 
@@ -120,7 +138,7 @@
         </Tbody>
 
         <TFoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th> <!-- Scope=Row serve para marcar os dados que está ao lado da coluna-->
             <td class="num"><strong>200 124 075</strong></td>
         </TFoot>
     </table>
