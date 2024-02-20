@@ -1,0 +1,17 @@
+No CSS, o # e o . são usados para selecionar elementos com base em seu id e classe, respectivamente.
+
+#background: Isso seleciona o elemento HTML que tem o atributo id igual a “background”. O id é único, o que significa que cada id só pode ser usado uma vez por página.
+CSS
+
+#background {
+  /* estilos aqui se aplicam ao elemento com id="background" */
+}
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+.background: Isso seleciona todos os elementos HTML que têm a classe “background”. Uma classe pode ser usada várias vezes em uma página, e vários elementos diferentes podem compartilhar a mesma classe.
+CSS
+
+.background {
+  /* estilos aqui se aplicam a todos os elementos com class="background" */
+}
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Portanto, a principal diferença entre os dois é que # é usado para id (único por página) e . é usado para classes (pode ser usado várias vezes por página).
