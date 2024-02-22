@@ -1,0 +1,1 @@
+Iframe tem alguns problemas com indexação, acessebilidade e usabilidade (voltar para a pagina inicial ou pagina anterior, iframe e a pagina podem bugar)
