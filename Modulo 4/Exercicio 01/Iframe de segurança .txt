@@ -1,0 +1,3 @@
+Iframe de segurança 
+
+<iframe src="./teste/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer"> <!--Com o sandbox não é possivel mandar ou carregar qualquer função, é um meio de proteção para o uso de iframe e com referrerpolicy não deixa coletar nenhum tipo de informçaõ dentro do iframe.-->

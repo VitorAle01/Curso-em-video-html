@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal de iframe</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ea! Vel aliquam accusamus neque eos, possimus quasi quas rem recusandae, beatae quos nisi similique nemo omnis iusto laborum nobis impedit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam reiciendis sed minima tempore sapiente modi deleniti, inventore necessitatibus aut vel, a magnam alias eius sequi itaque eveniet optio nesciunt ad.
+    </p>
+    <iframe src="./teste/pag004.html" sandbox="allow-forms allow-same-origin allow-scripts" referrerpolicy="no-referrer"> <!--Com essas conf do sandbox ja é permitido algumas interações.-->
+        <p>Seu navegador não é compativel</p>
+    </iframe>
+    <iframe src="./teste/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer"> <!--Com o sandbox (segurança maxima)não é possivel mandar ou carregar qualquer função, é um meio de proteção para o uso de iframe e com referrerpolicy não deixa coletar nenhum tipo de informçaõ dentro do iframe.-->
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quis ullam tempora aut dolor reiciendis consectetur neque blanditiis minus velit nihil maxime ex est, itaque, quo aliquam eius necessitatibus cumque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ea possimus eius incidunt corrupti enim reiciendis libero nemo magni vel? Inventore temporibus doloribus, odio dicta voluptate aliquid aut numquam repellat!
+    </p>
+</body>
+</html>
