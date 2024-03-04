@@ -1,0 +1,13 @@
+Método GET E POST
+Padrão do formulario é o get.
+
+método get deixa visivel a solicitação na url. utilizar quando os dados não forem sensiveis
+
+nome, peso, para uso de compartilhamento da url, e etc..
+método GET tem um limite, pode enviar dados que seja até 3 mil bytes = a 3 mil caracteres.
+
+método post deixa a solicitação escondida na url, não deixa visivel, mas não fica protegido.
+
+utilizar quando os dados forem sensiveis
+
+data, numero de cartão de credito, fotos, e mais de 3 mil bytes e etc...
