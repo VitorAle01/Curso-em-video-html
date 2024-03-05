@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="Iusu">Usuário:</label>
+            <input type="text" name="usu" id="Iusu" required minlength="4" maxlength="15" size="15" placeholder="Nome do Usuário" autocomplete="username"> <!--REQUIRED=OBRUGATORIO, PLACEHOLDER= texto dentro da label(caixa) indicando o que usuário colocar.-->
+        </p>
+        
+        <p>
+            <label for="Isenha">Senha:</label>
+            <input type="password" name="senha" id="Isenha" required minlength="6" maxlength="10" size="10" autocomplete="current-password"> <!--MINLENGTH OU MAX É O MIN E MAX DE CARACTERES QUE POSSA SER PREENCHIDO NA LABEL-->
+        </p>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limapr">
+        </p>
+    </form>
+</body>
+</html>
