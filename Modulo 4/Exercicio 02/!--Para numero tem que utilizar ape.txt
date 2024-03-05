@@ -1,0 +1,3 @@
+<!--Para numero tem que utilizar apenas min-->
+
+texto= minlength.
