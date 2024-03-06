@@ -1,0 +1,3 @@
+FORMULARIOS.
+
+Para formularios que tem envio de dados exe:foto ou passar de 3 mil bytes o indicado é utilizar o method post.
