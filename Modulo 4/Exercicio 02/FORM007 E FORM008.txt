@@ -1,0 +1,31 @@
+FORM007
+Textearea abre uma caixa de mensagem.
+
+<option value="" selected>---Escolha---</option> <!--selected deixa um selecionado ja-->
+                <optgroup label="Região Sudeste"> <!--Fica separados em grupos, como o exemplo abaixo que é região.-->
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+
+----------------------------------------
+FORM008
+
+ <p>
+            <label for="In1">Numero 1:</label>
+            <input type="number" name="n1" id="In1" min="0" max="50" required oninput="isoma.innerHTML = Number(In1.value) + Number(In2.value)">
+            
+        </p>
+
+        <p>
+            <label for="In2">Numero 2:</label>
+            <input type="number" name="n2" id="In2" min="0" max="50" required oninput="isoma.innerHTML = Number(In1.value) + Number(In2.value)"> <!--SOMA COM JAVASCRIPT-->
+        </p>
+
+            <p>
+                <label for="isoma">Soma:</label>
+                <output name="soma" id="isoma">0</output>
+            </p>
+
+OUTPUT É UMA SOLUÇÃO PARA APENAS MOSTRAR O RESULTADO DA SOMA NA TELA, MAS NÃO CONSEGUE ENVIAR PRA NENHUM LUGAR.
