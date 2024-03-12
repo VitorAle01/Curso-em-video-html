@@ -1,0 +1,5 @@
+Media queries.
+
+é tipo o formato responsivo do site, ele se adapta as diversas formas, modelo desktop, modelo de tablet, smartphones e até modelo de papel quando é utilizado pra imprimir algum conteudo.
+
+é feitos pelo css a media queries.
