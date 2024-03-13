@@ -1,0 +1,7 @@
+Media query é igual media type mais media fitch (caracteristica de media).
+
+media type é escrito sem parentesis e media fitch é escrito entre parentesis.
+
+exe:<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)"

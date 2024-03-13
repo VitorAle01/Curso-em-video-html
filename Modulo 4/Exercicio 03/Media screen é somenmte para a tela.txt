@@ -1,0 +1,4 @@
+Media "screen" é somenmte para a tela, o Media "all" é para tudo.
+media="print" conteudo para impressora
+
+display: none; /*=Não vai ser exibido*/
