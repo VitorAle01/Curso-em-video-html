@@ -1,0 +1,8 @@
+background-size: contain e cover
+
+contain: se a imagem for maior que a area ele deixa do tamanho ideal.
+
+
+cover: se a imagem for menor que a area ele estica a imagem para o tamanho ideal e não deixa perder a qualidade da imagem.
+
+
