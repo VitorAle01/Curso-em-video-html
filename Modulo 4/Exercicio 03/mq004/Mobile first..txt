@@ -1,0 +1,3 @@
+Mobile first.
+
+pensar primeiro em como site vai ficar em dispositivos moveis. exe: deixar o site mais leve para carregar rapido.
