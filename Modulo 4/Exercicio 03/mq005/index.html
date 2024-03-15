@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        
+        <span id="burguer" class="material-icons md-24" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+             </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nesciunt debitis laborum eum fugit, nemo maiores
+                        voluptatum necessitatibus error, omnis quisquam ipsa eius blanditiis, odio mollitia possimus enim praesentium minima.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui est eos dicta iste totam explicabo saepe dolorem unde inventore cupiditate tempore, reprehenderit voluptas sequi eum perspiciatis ut facilis doloremque!
+                    </p>
+                        
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nesciunt debitis laborum eum fugit, nemo maiores voluptatum necessitatibus error, omnis quisquam ipsa eius blanditiis, odio mollitia possimus enim praesentium minima.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui est eos dicta iste totam explicabo saepe dolorem unde inventore cupiditate tempore, reprehenderit voluptas sequi eum perspiciatis ut facilis doloremque!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt architecto explicabo suscipit consequuntur consequatur quia dicta, sit quasi perspiciatis vel dolores? Totam ratione veniam, beatae vitae sed harum cum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro voluptates excepturi optio in vel nihil dolorem eligendi nemo cumque, sapiente culpa placeat quia alias, corrupti quo non autem quasi! Suscipit?
+                  
+                </p>
+
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis nesciunt debitis laborum eum fugit, nemo maiores voluptatum necessitatibus error, omnis quisquam ipsa eius blanditiis, odio mollitia possimus enim praesentium minima.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui est eos dicta iste totam explicabo saepe dolorem unde inventore cupiditate tempore, reprehenderit voluptas sequi eum perspiciatis ut facilis doloremque!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt architecto explicabo suscipit consequuntur consequatur quia dicta, sit quasi perspiciatis vel dolores? Totam ratione veniam, beatae vitae sed harum cum.
+
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas distinctio repudiandae eius recusandae quidem molestias, libero porro voluptate quis, dolore voluptates fuga aliquid, architecto est? Voluptatum delectus dolorem pariatur dignissimos.
+                </p>    
+              
+                
+        </article>
+    </main>
+    <script>
+        function clickMenu(){ /* Script para o menu para abrir e fechar o hamburguer(Menu)*/
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+        }  
+    </script>
+</body>
+</html>
