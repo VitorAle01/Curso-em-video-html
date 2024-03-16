@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()"> <!--Quando eu mudar o tamanho do site.-->
     <header>
         <h1>Meu site</h1>
         
@@ -52,7 +53,16 @@
         </article>
     </main>
     <script>
-        function clickMenu(){ /* Script para o menu para abrir e fechar o hamburguer(Menu)*/
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){ /*teste de largura da tela*/
+                itens.display.none = 'block'
+            } else{
+                itens.display.none = 'none'
+            }
+        }
+
+        function clickMenu(){ /* Script para o menu para abrir e fechar o hamburguer(Menu) exibição*/
            if (itens.style.display == 'block'){
             itens.style.display = 'none'
            } else{
