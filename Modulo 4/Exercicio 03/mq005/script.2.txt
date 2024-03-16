@@ -1,0 +1,11 @@
+ <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){ /*teste de largura da tela*/
+                itens.display.none = 'block'
+            } else{
+                itens.display.none = 'none'
+            }
+        }
+
+     </script>
