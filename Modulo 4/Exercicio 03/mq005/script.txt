@@ -1,0 +1,13 @@
+<script>
+        function clickMenu(){ /* Script para o menu para abrir e fechar o hamburguer(Menu)*/
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+        }  
+</script>
+
+javascript: == esse sinal é considerado igual.
+
+esse sinal = é considerado como recebe no JS.
